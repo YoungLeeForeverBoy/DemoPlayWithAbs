@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="In-line preferences">
+        <CheckBoxPreference
+            android:key="prefs_checkbox1"
+            android:title="Checkbox preference"
+            android:summary="This is a checkbox prefs"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Dialog preferences">
+        <EditTextPreference
+            android:key="prefs_edittext1"
+            android:title="Edittext preference"
+            android:summary="This is a edittext prefs"
+            android:dialogTitle="hey!"
+            android:dialogMessage="input somethings"/>
+        <ListPreference
+            android:key="prefs_listprefs"
+            android:title="List preference"
+            android:summary="This is a list prefs"
+            android:entries="@array/entries_list_prefs"
+            android:entryValues="@array/entryvalues_list_prefs"
+            android:dialogTitle="Choose one city"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Launch preferences">
+        <PreferenceScreen
+            android:summary="Launches an Activity from an Intent"
+            android:title="Intent preference">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.baidu.com"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Prefrence attributes">
+        <CheckBoxPreference
+            android:title="Parent checkbox prefs"
+            android:summary="this is parent prefs"
+            android:key="prefs_parent_checkbox"/>
+        <CheckBoxPreference
+            android:title="Child check prefs"
+            android:summary="this is child prefs"
+            android:key="prefs_child_checkbox"
+            android:dependency="prefs_parent_checkbox"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_mode"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Mode"/>
+    <item
+        android:id="@+id/action_go"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Go"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Add"/>
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Delete"/>
+</menu>

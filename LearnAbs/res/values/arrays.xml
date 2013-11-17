@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_prefs">
+        <item>Shanghai</item>
+        <item>Guangzhou</item>
+        <item>Beijing</item>
+        <item>Shenzhen</item>
+        <item>Hangzhou</item>
+    </string-array>
+    <string-array name="entryvalues_list_prefs">
+        <item>shanghai</item>
+        <item>guangzhou</item>
+        <item>beijing</item>
+        <item>shenzhen</item>
+        <item>hangzhou</item>
+    </string-array>
+</resources>
