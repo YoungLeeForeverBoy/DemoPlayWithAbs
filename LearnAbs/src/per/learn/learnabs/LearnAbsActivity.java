@@ -49,7 +49,12 @@ public class LearnAbsActivity extends SherlockActivity implements ActionMode.Cal
             case android.R.id.home: {
                 startActivity(new Intent(this, SettingsActivity.class));
             }break;
+
+            case R.id.action_search: {
+                startActivity(new Intent(this, LearnAbsSearchActivity.class));
+            }break;
         }
+
         return super.onOptionsItemSelected(item);
     }
 

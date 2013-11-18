@@ -15,10 +15,10 @@
         android:showAsAction="ifRoom"
         android:title="Refresh"/>
     <item
-        android:id="@+id/action_add"
+        android:id="@+id/action_search"
         android:orderInCategory="100"
         android:showAsAction="ifRoom"
-        android:title="Add"/>
+        android:title="search"/>
     <item
         android:id="@+id/action_delete"
         android:orderInCategory="100"
