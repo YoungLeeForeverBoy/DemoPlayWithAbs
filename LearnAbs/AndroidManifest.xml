@@ -25,6 +25,7 @@
         <activity android:name="per.learn.learnabs.LearnAbsOtherActivity"/>
         <activity android:name="per.learn.learnabs.SettingsActivity"/>
         <activity android:name="per.learn.learnabs.LearnAbsSearchActivity"/>
+        <activity android:name="per.learn.learnabs.LearnAbsStaticAttachActivity"/>
     </application>
 
 </manifest>
