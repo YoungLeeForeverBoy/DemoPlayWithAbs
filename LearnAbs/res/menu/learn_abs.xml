@@ -10,10 +10,10 @@
         android:showAsAction="always"
         android:title="Go"/>
     <item
-        android:id="@+id/action_refresh"
+        android:id="@+id/action_submenu"
         android:orderInCategory="100"
         android:showAsAction="ifRoom"
-        android:title="Refresh"/>
+        android:title="submenu"/>
     <item
         android:id="@+id/action_search"
         android:orderInCategory="100"

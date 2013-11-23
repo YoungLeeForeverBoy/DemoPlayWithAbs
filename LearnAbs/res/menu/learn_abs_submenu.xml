@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/submenu1"
+        android:menuCategory="secondary"
+        android:title="submenu1"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_launcher">
+        <menu>
+            <item android:id="@+id/item1"
+                android:title="one"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom">
+                <menu>
+                    <item android:id="@+id/item1_1"
+                        android:title="one_one"
+                        android:showAsAction="ifRoom"/>
+                    <item android:id="@+id/item1_2"
+                        android:title="one_two"
+                        android:showAsAction="ifRoom"/>
+                    <item android:id="@+id/item1_3"
+                        android:title="one_three"
+                        android:showAsAction="ifRoom"/>
+                </menu>
+            </item>
+            <item android:id="@+id/item2"
+                android:title="two"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"/>
+            <item android:id="@+id/item3"
+                android:title="three"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

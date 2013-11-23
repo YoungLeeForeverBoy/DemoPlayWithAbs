@@ -26,6 +26,7 @@
         <activity android:name="per.learn.learnabs.SettingsActivity"/>
         <activity android:name="per.learn.learnabs.LearnAbsSearchActivity"/>
         <activity android:name="per.learn.learnabs.LearnAbsStaticAttachActivity"/>
+        <activity android:name="per.learn.learnabs.LearnAbsSubMenu"/>
     </application>
 
 </manifest>

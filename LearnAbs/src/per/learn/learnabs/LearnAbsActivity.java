@@ -57,6 +57,10 @@ public class LearnAbsActivity extends SherlockActivity implements ActionMode.Cal
             case R.id.action_attach: {
                 startActivity(new Intent(this, LearnAbsStaticAttachActivity.class));
             }break;
+
+            case R.id.action_submenu: {
+                startActivity(new Intent(this, LearnAbsSubMenu.class));
+            }break;
         }
 
         return super.onOptionsItemSelected(item);
